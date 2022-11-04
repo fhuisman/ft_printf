@@ -32,7 +32,7 @@ int	conversions(const char *str, va_list ap)
 	if (*str == '%')
 		return (printpercent());
 	else
-		return (0);
+		return (printchar(*str));
 }
 
 int	ft_printf(const char *str, ...)
