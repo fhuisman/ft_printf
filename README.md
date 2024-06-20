@@ -34,3 +34,14 @@ Compile by using make:
 ```c
 make
 ```
+
+# Usage
+
+To use the library functions in your code, simply include its header:
+```c
+#include "ft_printf.h"
+```
+and add the library when you're compiling. For example:
+```c
+gcc main.c libftprintf.a
+```
